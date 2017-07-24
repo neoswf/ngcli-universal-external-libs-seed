@@ -9,6 +9,7 @@
 ## Supporting
 
 * SSR (server side rendering)
+* Universal SEO. Ability to set each route its own page title, description and meta tags.
 * Angular Animations
 
 ## Install Project
