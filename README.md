@@ -19,12 +19,12 @@
 ## Run NG App
  
 * ng serve
+* Open project on [port:4200](http://localhost:4200)
  
 ## Generate a Universal Build
  
 * npm run start
-
-Open project on [port:4000](http://localhost:4000)
+* Open project on [port:4000](http://localhost:4000)
 
 # restrictions
 * Since app integrating Universal, all UI 3part plugins (parallax/interactivity/etc) need to be imported in `app.browser.module.ts` 
