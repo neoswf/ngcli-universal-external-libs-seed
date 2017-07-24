@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+
+<h2>Navigate using the following links: </h2>
+
+<ul>
+  <li>
+    <h2><a routerLink="/">Home</a></h2>
+  </li>
+  <li>
+    <h2><a routerLink="about.html">About</a></h2>
+  </li>
+</ul>
+
+<div [@routeAnimation]="prepRouteState(routerOutlet)">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
